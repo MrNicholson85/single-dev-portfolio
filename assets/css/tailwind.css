@@ -3,6 +3,12 @@
 @import "tailwindcss/utilities";
 @import "/assets/components/hero.css";
 
+@font-face {
+    font-family: SpaceGrotesk;
+    src: local("SpaceGrotesk"),
+        url(../fonts/SpaceGrotesk-VariableFont_wght.ttf)
+}
+
 body {
     font-family: SpaceGrotesk;
     @apply bg-black text-white
@@ -77,14 +83,19 @@ h3, .h3 {
         absolute
         gap-y-[48px]
         text-center
-        w-[540px]
+        w-[343px]
+        lg:w-[540px]
         h-[400px]
         place-content-center
 }
 
-@font-face {
-    font-family: SpaceGrotesk;
-    src: local("SpaceGrotesk"),
-        url(../fonts/SpaceGrotesk-VariableFont_wght.ttf)
+.projectLinks {
+    @apply
+       font-bold
+       text-base
+       leading-[26px]
+       tracking-[2.29px]
+       uppercase 
+       border-[#4EE1A0]
+       border-b-[2px]
 }
-

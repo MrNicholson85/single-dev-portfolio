@@ -13,17 +13,18 @@
         </template>
         <template #viewProject>
           <a
-            class="uppercase border-[#4EE1A0] border-b-[2px]"
+            class="projectLinks"
             href="https://audiophile-ebon.vercel.app/"
             target="_blank"
             >View Project</a
           >
         </template>
         <template #viewCode>
-          <NuxtLink
-            class="uppercase border-[#4EE1A0] border-b-[2px]"
-            to="https://github.com/MrNicholson85/audiophile"
-            >View Code</NuxtLink
+          <a
+            class="projectLinks"
+            href="https://github.com/MrNicholson85/audiophile"
+            target="_blank"
+            >View Code</a
           >
         </template>
         <template #itemTitle>
@@ -61,21 +62,23 @@
           />
         </template>
         <template #viewProject>
-          <NuxtLink
-            class="uppercase border-[#4EE1A0] border-b-[2px]"
-            to="https://stat-preview-challenge.vercel.app/"
-            >View Project</NuxtLink
+          <a
+            class="projectLinks"
+            href="https://stat-preview-challenge.vercel.app/"
+            target="_blank"
+            >View Project</a
           >
         </template>
         <template #viewCode>
-          <NuxtLink
-            class="uppercase border-[#4EE1A0] border-b-[2px]"
-            to="https://github.com/MrNicholson85/StatPreviewChallenge"
-            >View Code</NuxtLink
+          <a
+            class="projectLinks"
+            href="https://github.com/MrNicholson85/StatPreviewChallenge"
+            target="_blank"
+            >View Code</a
           >
         </template>
         <template #itemTitle>
-          <div>Stats preview card component</div>
+          <h3>Stats preview card component</h3>
         </template>
         <template #itemSkills>
           <ul class="flex gap-x-4">
@@ -104,21 +107,23 @@
           />
         </template>
         <template #viewProject>
-          <NuxtLink
-            class="uppercase border-[#4EE1A0] border-b-[2px]"
-            to="https://expense-chart-component-eight.vercel.app/"
-            >View Project</NuxtLink
+          <a
+            class="projectLinks"
+            href="https://expense-chart-component-eight.vercel.app/"
+            target="_blank"
+            >View Project</a
           >
         </template>
         <template #viewCode>
-          <NuxtLink
-            class="uppercase border-[#4EE1A0] border-b-[2px]"
-            to="https://github.com/MrNicholson85/StatPreviewChallenge"
-            >View Code</NuxtLink
+          <a
+            class="projectLinks"
+            href="https://github.com/MrNicholson85/StatPreviewChallenge"
+            target="_blank"
+            >View Code</a
           >
         </template>
         <template #itemTitle>
-          <div>Expenses chart component</div>
+          <h3>Expenses chart component</h3>
         </template>
         <template #itemSkills>
           <ul class="flex gap-x-4">
@@ -147,21 +152,23 @@
           />
         </template>
         <template #viewProject>
-          <NuxtLink
-            class="uppercase border-[#4EE1A0] border-b-[2px]"
-            to="https://photosnap-rho.vercel.app/"
-            >View Project</NuxtLink
+          <a
+            class="projectLinks"
+            href="https://photosnap-rho.vercel.app/"
+            target="_blank"
+            >View Project</a
           >
         </template>
         <template #viewCode>
-          <NuxtLink
-            class="uppercase border-[#4EE1A0] border-b-[2px]"
-            to="https://github.com/MrNicholson85/photosnap"
-            >View Code</NuxtLink
+          <a
+            class="projectLinks"
+            href="https://github.com/MrNicholson85/photosnap"
+            target="_blank"
+            >View Code</a
           >
         </template>
         <template #itemTitle>
-          <div>Photosnap multi-page website</div>
+          <h3>Photosnap multi-page website</h3>
         </template>
         <template #itemSkills>
           <ul class="flex gap-x-4">
@@ -196,21 +203,23 @@
           />
         </template>
         <template #viewProject>
-          <NuxtLink
-            class="uppercase border-[#4EE1A0] border-b-[2px]"
-            to="https://planet-facts-challenge-vue.vercel.app/"
-            >View Project</NuxtLink
+          <a
+            class="projectLinks"
+            href="https://planet-facts-challenge-vue.vercel.app/"
+            target="_blank"
+            >View Project</a
           >
         </template>
         <template #viewCode>
-          <NuxtLink
-            class="uppercase border-[#4EE1A0] border-b-[2px]"
-            to="https://github.com/MrNicholson85/Planet-Facts-Challenge-Vue"
-            >View Code</NuxtLink
+          <a
+            class="projectLinks"
+            href="https://github.com/MrNicholson85/Planet-Facts-Challenge-Vue"
+            target="_blank"
+            >View Code</a
           >
         </template>
         <template #itemTitle>
-          <div>Planets fact site</div>
+          <h3>Planets fact site</h3>
         </template>
         <template #itemSkills>
           <ul class="flex gap-x-4">

@@ -5,7 +5,7 @@
         <slot name="projectImage">
           <img src="../../assets/images/thumbnail-project-1-large.webp" />
         </slot>
-        <div class="projectActive">
+        <div class="projectActive hidden lg:block">
           <div class="viewProject uppercase font-bold">
             <slot name="viewProject">
               <NuxtLink to="/" class="viewProject">View Project</NuxtLink>
@@ -29,6 +29,18 @@
         <li>CSS</li>
       </ul>
     </slot>
+    <div class="flex lg:hidden gap-x-[30px]">
+      <div class="viewProject uppercase font-bold">
+        <slot name="viewProject">
+          <NuxtLink to="/" class="viewProject">View Project</NuxtLink>
+        </slot>
+      </div>
+      <div class="viewCode">
+        <slot name="viewCode">
+          <NuxtLink to="/">View Core</NuxtLink>
+        </slot>
+      </div>
+    </div>
   </div>
 </template>
 

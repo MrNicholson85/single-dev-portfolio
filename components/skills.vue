@@ -42,7 +42,6 @@ import skillItem from "./modules/skillItem.vue";
   position: relative;
 }
 .skills::after {
-  content: "";
   display: flex;
   width: 540px;
   height: 129px;
