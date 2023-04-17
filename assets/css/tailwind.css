@@ -12,6 +12,76 @@ body {
     @apply w-[343px] md:w-[708px] mx-auto md:mx-8 lg:w-[1110px] lg:mx-auto
 }
 
+h1, .h1 {
+    @apply 
+        font-bold
+        text-[40px]
+        leading-[40px]
+        -tracking-[1.14px]
+        md:text-7xl
+        md:leading-[72px]
+        md:-tracking-[2.0px]
+        lg:text-[88px]
+        lg:leading-[88px]
+        lg:-tracking-[2.5px]
+}
+
+h2, .h2 {
+    @apply 
+        font-bold
+        text-[32px]
+        leading-[40px]
+        -tracking-[1.14px]
+        md:text-[48px]
+        md:leading-[56px]
+        md:-tracking-[1.5px]
+        lg:text-[48px]
+        lg:leading-[56px]
+        lg:-tracking-[1.5px]
+}
+
+h3, .h3 {
+    @apply
+        font-bold
+        uppercase
+        text-2xl
+        leading-8
+}
+
+.p, p {
+    @apply
+        font-normal
+        text-base
+        leading-[26px]
+        md:text-lg
+        md:leading-7
+}
+
+.contact-btn {
+    @apply
+        font-bold
+        text-base
+        leading-[26px]
+        tracking-[2.29px]
+        text-center
+        w-[120px]
+        h-[38px]
+        border-[#4EE1A0] 
+        hover:text-[#4EE1A0]
+        border-b-[2px]
+        uppercase
+}
+
+.projectActive {
+    @apply
+        absolute
+        gap-y-[48px]
+        text-center
+        w-[540px]
+        h-[400px]
+        place-content-center
+}
+
 @font-face {
     font-family: SpaceGrotesk;
     src: local("SpaceGrotesk"),

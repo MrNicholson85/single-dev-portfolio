@@ -14,10 +14,6 @@
     @apply mt-[43px] text-center md:text-left z-10 relative w-full md:w-[445px] leading-7 md:pr-12
 }
 
-.hero_contact_btn {
-    @apply border-[#4EE1A0] border-b-[2px] uppercase text-base p-2 w-[117px] hover:text-[#4EE1A0] mt-6 md:mt-[58px] mx-auto md:mx-0
-}
-
 .hero_bg_image {
     @apply lg:bg-[url('assets/images/image-profile-desktop.webp')] md:bg-[url('assets/images/image-profile-tablet.webp')] bg-[url('assets/images/image-profile-mobile.webp')] md:w-[322px] lg:w-[445px] w-[173px] h-[383px] lg:h-[759px] md:h-[600px] mx-auto md:mx-0
 }

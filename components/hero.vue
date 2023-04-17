@@ -15,7 +15,7 @@
           Based in the UK, I’m a front-end developer passionate about building
           accessible web apps that users love.
         </p>
-        <div class="hero_contact_btn">Contact Me</div>
+        <div class="contact-btn">Contact Me</div>
       </div>
       <div
         class="hero-image bg-cover bg-center -z-[1] w-full hidden md:block hero_bg_image"
