@@ -99,3 +99,29 @@ h3, .h3 {
        border-[#4EE1A0]
        border-b-[2px]
 }
+
+.inputStyles {
+    @apply
+        uppercase
+        bg-transparent
+        border-[#fff]
+        border-b-[1px]
+        h-[43px]
+        px-6
+        text-base
+        leading-[26px]
+        -tracking-[.2px]
+        text-white
+}
+
+.textAreaStyles {
+    @apply
+        uppercase
+        bg-transparent
+        border-[#fff]
+        border-b-[1px]
+        px-6
+        text-base
+        leading-[26px]
+        -tracking-[.2px]
+}

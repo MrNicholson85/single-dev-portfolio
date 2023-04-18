@@ -2,14 +2,16 @@
   <Nav />
   <Hero />
   <Skills />
-  <projects />
+  <Projects />
+  <Footer />
 </template>
 
 <script setup>
 import Nav from "~~/components/nav.vue";
 import Hero from "~~/components/hero.vue";
 import Skills from "~~/components/skills.vue";
-import projects from "~/components/projects.vue";
+import Projects from "~/components/projects.vue";
+import Footer from "~/components/footer.vue";
 </script>
 
 <style scoped></style>
