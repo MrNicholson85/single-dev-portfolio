@@ -4,7 +4,7 @@
       <div
         class="text-center md:text-left text-8 font-bold leading-8 -tracking-[0.4px]"
       >
-        darrylnicholson
+        adamkeyes
       </div>
       <div
         class="flex gap-6 md:gap-8 z-10 mx-auto md:mx-0 w-[153px] md:w-[192px] md:pr-[30px]"

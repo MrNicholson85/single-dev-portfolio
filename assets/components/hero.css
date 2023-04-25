@@ -1,5 +1,9 @@
 .hero {
-    @apply relative h-[759px] -mt-[103px] md:-mt-[64px]
+    @apply
+        relative
+        h-[759px]
+        -mt-[103px]
+        md:-mt-[64px]
 }
 
 .hero_heading {

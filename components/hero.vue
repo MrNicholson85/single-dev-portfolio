@@ -9,7 +9,7 @@
       >
         <h1 class="hero_heading">
           Nice to meet you! I'm
-          <span class="heading_callout">Darryl Nicholson</span>.
+          <span class="heading_callout">adamkeyes</span>.
         </h1>
         <p class="hero_text">
           Based in the UK, I’m a front-end developer passionate about building
